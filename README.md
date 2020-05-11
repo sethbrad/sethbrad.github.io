@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to my site
 
-You can use the [editor on GitHub](https://github.com/sethbrad/sethbrad.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+My name is Seth Braddock, and I’m a junior in Computer Engineering at Iowa State University. I love my school and my degree, so I made this website to showcase what I’ve been up to the past couple of years. Here you’ll find links to my resume, LinkedIn, GitHub, and maybe even a blog.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My interest lies in anything from game design to embedded systems to even making my own circuits for guitar pedals. With experience in full-stack web development, Python, Java, and embedded C, I’d love to put my skills to work for your business.
 
-### Markdown
+### About Me
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sethbrad/sethbrad.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Originally from small town Iowa, I’ve spent my time in Ames honing my skills in the technology sector. I also love to play guitar and be outdoors in my free time.
