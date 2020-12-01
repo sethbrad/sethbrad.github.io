@@ -1,3 +1,3 @@
 ## Welcome to my site
 
-wIP for project documentation.
+WIP for project documentation.
