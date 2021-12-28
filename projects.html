@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+        <link rel='stylesheet' href='./css/index.css'>
+        <link rel='stylesheet' href='https://unpkg.com/98.css'>
+        <title>Projects - Seth's Portfolio</title>
+
+        <script>
+            function redirect(location) {
+                switch(location) {
+                    case 'about':
+                        window.location.href = './about.html';
+                        break;
+                    case 'experience':
+                        window.location.href = './experience.html';
+                        break;
+                    case 'projects':
+                        window.location.href = './projects.html';
+                        break;
+                    case 'linkedin':
+                        window.location.href = 'https://www.linkedin.com/in/seth-braddock099/';
+                        break;
+                    case 'github':
+                        window.location.href = 'https://github.com/sethbrad';
+                        break;
+                    case 'email':
+                        window.location.href = 'mailto:sethbrad99@gmail.com';
+                        break;
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Seth's Porfolio</h1>
+
+        <header class='header'>
+            <button onclick="redirect('about')">About</button>
+            <button onclick="redirect('experience')">Experience</button>
+            <button onclick="redirect('projects')">Projects</button>
+        </header>
+
+        <div class='content'>
+            <h2>Projects</h2>
+
+            <p>
+                juce plugin</br>
+                opengl renderer</br>
+                crypto bot</br>
+                discord bot</br>
+                this site</br>
+            </p>
+
+        </div>
+
+        <footer class='footer'>
+            <button onclick="redirect('linkedin')">LinkedIn</a></button>
+            <button onclick="redirect('github')">GitHub</a></button>
+            <button onclick="redirect('email')">Email</a></button>
+        </footer>
+    </body>
+
+</html>

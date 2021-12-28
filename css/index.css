@@ -1,0 +1,37 @@
+* {
+    background-color: whitesmoke;
+    font-family: monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/clouds.jpg');
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    width: 50%;
+}
+
+.footer > button {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    width: 50%;
+}
+
+.header > button {
+    flex: 1;
+}

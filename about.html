@@ -1,0 +1,65 @@
+<html>
+
+    <head>
+        <link rel='stylesheet' href='./css/index.css'>
+        <link rel='stylesheet' href='https://unpkg.com/98.css'>
+        <title>About - Seth's Portfolio</title>
+
+        <script>
+            function redirect(location) {
+                switch(location) {
+                    case 'about':
+                        window.location.href = './about.html';
+                        break;
+                    case 'experience':
+                        window.location.href = './experience.html';
+                        break;
+                    case 'projects':
+                        window.location.href = './projects.html';
+                        break;
+                    case 'linkedin':
+                        window.location.href = 'https://www.linkedin.com/in/seth-braddock099/';
+                        break;
+                    case 'github':
+                        window.location.href = 'https://github.com/sethbrad';
+                        break;
+                    case 'email':
+                        window.location.href = 'mailto:sethbrad99@gmail.com';
+                        break;
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Seth's Porfolio</h1>
+
+        <header class='header'>
+            <button onclick="redirect('about')">About</button>
+            <button onclick="redirect('experience')">Experience</button>
+            <button onclick="redirect('projects')">Projects</button>
+        </header>
+
+        <div class='content'>
+            <h2>About</h2>
+
+            <p>
+                My name is Seth, and I am a developer chiefly in C/C++, Java, Python, and general web programming. 
+                Here on this site, you can find information about me, my career, my personal projects, and my education.
+            </p>
+
+            <p>
+                More about myself: I come from the small town of Danville, Iowa. I have a love of the outdoors and music,
+                and I play guitar, bass, and drum set.
+            </p>
+
+        </div>
+
+        <footer class='footer'>
+            <button onclick="redirect('linkedin')">LinkedIn</a></button>
+            <button onclick="redirect('github')">GitHub</a></button>
+            <button onclick="redirect('email')">Email</a></button>
+        </footer>
+    </body>
+
+</html>
