@@ -3,6 +3,10 @@
     font-family: monospace;
 }
 
+p {
+    font-size: large
+}
+
 html, body {
     height: 100%;
 }
